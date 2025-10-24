@@ -1,7 +1,7 @@
 import streamlit as st
 from google import genai
 
-API_KEY = "AIzaSyDtocGiEG0AnRP6O5lfS5louLs13bJoBww"
+API_KEY = ""
 
 try:
     client = genai.Client(api_key=API_KEY)
